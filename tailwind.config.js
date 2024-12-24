@@ -21,7 +21,30 @@ export default {
 
       xs: { max: "450px" },
     },
-    extend: {},
+    extend: {
+      backgroundColor: {
+        "dark-one": "#020C1B",
+        "light-green": "#64FFDA",
+      },
+      fontFamily: {
+        notoSans: "Noto Sans",
+        serif,
+        ubuntu: "Ubuntu",
+        serif,
+      },
+      zIndex: {
+        1: "1",
+        2: "2",
+        3: "3",
+        4: "4",
+        5: "5",
+        6: "6",
+        7: "7",
+        8: "8",
+        9: "9",
+        10: "10",
+      },
+    },
   },
   plugins: [],
 };

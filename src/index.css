@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap");
+
+/* .noto-sans-<uniquifier> {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* .ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
