@@ -9,3 +9,9 @@ export type skill = {
   skill: string;
   icon: React.ReactNode | IconType;
 };
+
+export type propsButton = {
+  type: "button" | "submit" | "reset";
+  name: string;
+  isTransparent: boolean;
+};

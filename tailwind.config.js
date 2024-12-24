@@ -23,14 +23,24 @@ export default {
     },
     extend: {
       backgroundColor: {
-        "dark-one": "#020C1B",
+        "dark-one": "#020c1b",
         "light-green": "#64FFDA",
+        "light-two-green": "#64FFDA",
+        "transparent-black": "rgba(0,0,0,0.3)",
       },
       fontFamily: {
-        notoSans: "Noto Sans",
-        serif,
-        ubuntu: "Ubuntu",
-        serif,
+        notoSans: `"Noto Sans",
+        serif`,
+        ubuntu: `"Ubuntu",
+        serif`,
+      },
+      borderColor: {
+        "light-green": "#64FFDA",
+        "light-two-green": "#64FFDA",
+      },
+      textColor: {
+        "light-green": "#64FFDA",
+        "light-two-green": "#64FFDA",
       },
       zIndex: {
         1: "1",
