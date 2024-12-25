@@ -23,5 +23,5 @@ export type propsButton = {
 export type socailLink = {
   name: string;
   link: string;
-  icon: React.ReactNode | IconType;
+  icon: React.ReactNode;
 };
