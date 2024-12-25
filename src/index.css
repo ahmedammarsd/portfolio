@@ -23,7 +23,6 @@
 body {
   background-color: #020c1b;
   font-family: "Ubuntu", serif;
-  height: 5000px;
 }
 @tailwind base;
 @tailwind components;

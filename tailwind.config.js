@@ -41,6 +41,7 @@ export default {
       textColor: {
         "light-green": "#64FFDA",
         "light-two-green": "#64FFDA",
+        "middle-grey": "#A8B2D1",
       },
       zIndex: {
         1: "1",

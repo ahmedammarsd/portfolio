@@ -67,7 +67,7 @@ const Navbar = () => {
     // == Main Container ==
     <nav
       id="#"
-      className={`tw-flex tw-fixed tw-w-full tw-items-center tw-overflow-x-hidden tw-justify-around md:tw-justify-between md:tw-px-6 sm:tw-px-4 tw-h-[150px] md:tw-h-[80px]
+      className={`tw-flex tw-fixed tw-bg-dark-one tw-z-9 tw-w-full tw-items-center tw-overflow-x-hidden tw-justify-around md:tw-justify-between md:tw-px-6 sm:tw-px-4 tw-h-[150px] md:tw-h-[80px]
         tw-border-b-[0.5px] tw-shadow-sm
         ${
           scrollY != 0

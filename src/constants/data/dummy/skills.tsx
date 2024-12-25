@@ -23,77 +23,77 @@ import { DiMongodb } from "react-icons/di";
 
 export const webSkills: skill[] = [
   {
-    skill: "C++",
+    name: "C++",
     icon: <SiCplusplus />,
   },
   {
-    skill: "HTML",
+    name: "HTML",
     icon: <FaHtml5 />,
   },
   {
-    skill: "CSS",
+    name: "CSS",
     icon: <FaCss3Alt />,
   },
   {
-    skill: "JAVASCRIPT",
+    name: "JAVASCRIPT",
     icon: <FaJsSquare />,
   },
   {
-    skill: "NODE.JS",
+    name: "NODE.JS",
     icon: <FaNode />,
   },
   {
-    skill: "TYPESCRIPT",
+    name: "TYPESCRIPT",
     icon: <BiLogoTypescript />,
   },
   {
-    skill: "REACT.JS",
+    name: "REACT.JS",
     icon: <FaReact />,
   },
   {
-    skill: "NEXT.JS",
+    name: "NEXT.JS",
     icon: <RiNextjsFill />,
   },
   {
-    skill: "GIT",
+    name: "GIT",
     icon: <FaGitAlt />,
   },
   {
-    skill: "GITHUB",
+    name: "GITHUB",
     icon: <FaGithub />,
   },
   {
-    skill: "BOOTSTRAP",
+    name: "BOOTSTRAP",
     icon: <FaBootstrap />,
   },
   {
-    skill: "TAILWIND",
+    name: "TAILWIND",
     icon: <SiTailwindcss />,
   },
   {
-    skill: "RTXQuery",
+    name: "RTXQuery",
     icon: <SiRedux />,
   },
 ];
 
 export const mobileSkills: skill[] = [
   {
-    skill: "DART",
+    name: "DART",
     icon: <SiDart />,
   },
   {
-    skill: "FLUTTER",
+    name: "FLUTTER",
     icon: <FaFlutter />,
   },
 ];
 
 export const dataBase: skill[] = [
   {
-    skill: "MySQL",
+    name: "MySQL",
     icon: <SiMysql />,
   },
   {
-    skill: "MONGODB",
+    name: "MONGODB",
     icon: <DiMongodb />,
   },
 ];
