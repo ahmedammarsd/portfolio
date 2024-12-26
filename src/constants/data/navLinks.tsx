@@ -2,15 +2,15 @@ import { navLink } from "../../types/types";
 
 export const navLinks: navLink[] = [
   {
-    name: "About",
+    name: "about",
     to: "#about",
   },
   {
-    name: "Specializations",
+    name: "specializations",
     to: "#specializations",
   },
   {
-    name: "Experience",
+    name: "experience",
     to: "#experience",
   },
   //   {
@@ -18,7 +18,7 @@ export const navLinks: navLink[] = [
   //     to: "#skills",
   //   },
   {
-    name: "Projects",
+    name: "projects",
     to: "#projects",
   },
 ];

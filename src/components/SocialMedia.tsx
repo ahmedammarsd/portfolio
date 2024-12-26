@@ -11,7 +11,7 @@ const SocialMedia = () => {
           target="_blank"
           key={social.name}
           href={social.link}
-          className="tw-text-white tw-p-2 tw-m-1 tw-text-4xl md:tw-text-2xl tw-inline-block hover:tw-text-middle-grey tw-duration-200"
+          className="tw-text-white tw-p-2 tw-m-1 tw-text-4xl md:tw-text-2xl tw-inline-block hover:tw-text-light-green tw-duration-200"
         >
           {social.icon}
         </a>

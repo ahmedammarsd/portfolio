@@ -20,6 +20,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #020c1b;
   font-family: "Ubuntu", serif;
