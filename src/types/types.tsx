@@ -25,3 +25,10 @@ export type socailLink = {
   link: string;
   icon: React.ReactNode;
 };
+
+export type special = {
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  image: string;
+};
