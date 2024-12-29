@@ -1,5 +1,5 @@
 import { BiLogoGmail } from "react-icons/bi";
-import { socailLink } from "../../../types/types";
+import { socailLink } from "../types/types";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const socialMediaData: socailLink[] = [

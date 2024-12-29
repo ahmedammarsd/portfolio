@@ -1,4 +1,4 @@
-import { navLink } from "../../types/types";
+import { navLink } from "../types/types";
 
 export const navLinks: navLink[] = [
   {

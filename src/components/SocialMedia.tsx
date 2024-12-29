@@ -1,4 +1,4 @@
-import { socialMediaData } from "../constants/data/dummy/socialMedial";
+import { socialMediaData } from "../data/socialMedial";
 
 const SocialMedia = () => {
   // operator system

@@ -1,11 +1,11 @@
 import { RiMenu3Fill } from "react-icons/ri";
-import { navLinks } from "../constants/data/navLinks";
-import useScreenSize from "../Utility/useScreenSizeHook";
+import { navLinks } from "../data/navLinks";
+import useScreenSize from "../hooks/useScreenSizeHook";
 import Button from "./shared/Button";
 import NavLink from "./shared/NavLink";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-import useScrollYSizeHook from "../Utility/useScrollYSizeHook";
+import useScrollYSizeHook from "../hooks/useScrollYSizeHook";
 
 // =============== Desktop Navbar ===========
 const NavDesktop = () => {

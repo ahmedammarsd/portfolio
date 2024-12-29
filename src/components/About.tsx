@@ -2,7 +2,7 @@ import Section from "./shared/Section";
 import SectionTitle from "./shared/SectionTitle";
 import imageCoding from "../assets/coding.jpg";
 import Pragraph from "./shared/Pragraph";
-import { navLinks } from "../constants/data/navLinks";
+import { navLinks } from "../data/navLinks";
 
 const About = () => {
   return (

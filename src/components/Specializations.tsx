@@ -1,5 +1,5 @@
-import { specializationsData } from "../constants/data/dummy/specializations";
-import { navLinks } from "../constants/data/navLinks";
+import { specializationsData } from "../data/specializations";
+import { navLinks } from "../data/navLinks";
 import CardSpecilty from "./shared/CardSpecilty";
 import Section from "./shared/Section";
 import SectionTitle from "./shared/SectionTitle";

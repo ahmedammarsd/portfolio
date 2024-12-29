@@ -1,5 +1,5 @@
 import { BiLogoTypescript } from "react-icons/bi";
-import { skill } from "../../../types/types";
+import { skill } from "../types/types";
 import {
   FaBootstrap,
   FaCss3Alt,
