@@ -7,7 +7,7 @@ type navLink = {
 const NavLink = ({ name, to, onClick }: navLink) => {
   return (
     <li
-      className="tw-text-white tw-text-2xl lg:tw-text-[18px] sm:tw-text-sm tw-mx-4 lg:tw-mx-2 sm:tw-mx-0 hover:tw-text-light-green tw-transition-all tw-duration-200
+      className="tw-text-white tw-text-xl lg:tw-text-[17px] sm:tw-text-sm tw-mx-4 lg:tw-mx-2 sm:tw-mx-0 hover:tw-text-light-green tw-transition-all tw-duration-200
      md:tw-inline-block  md:tw-w-full md:tw-py-2 tw-px-2 md:tw-px-1 md:tw-rounded-sm
     "
     >
