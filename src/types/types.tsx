@@ -32,3 +32,14 @@ export type special = {
   icon: React.ReactNode;
   image: string;
 };
+
+// === For Experience Data
+export type experienceType = {
+  nameOfCampany: string;
+  positionTitel: string;
+  dateOfStart: string;
+  dateOfEnd: string | null;
+  isPresent: boolean;
+  moreDetails: string[];
+  location: string;
+};

@@ -10,12 +10,13 @@ const Specializations = () => {
       <SectionTitle title={navLinks[1].name} />
       {/* Container for 3 cards */}
       <div className="tw-flex tw-items-center tw-justify-evenly tw-flex-wrap">
-        {specializationsData.map((special) => (
+        {specializationsData.map((speciality) => (
           <CardSpecilty
-            icon={special.icon}
-            title={special.title}
-            description={special.description}
-            image={special.image}
+            key={speciality.title}
+            icon={speciality.icon}
+            title={speciality.title}
+            description={speciality.description}
+            image={speciality.image}
           />
         ))}
       </div>

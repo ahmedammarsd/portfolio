@@ -27,6 +27,11 @@ body {
   background-color: #020c1b;
   font-family: "Ubuntu", serif;
 }
+
+.sub-title {
+  @apply tw-text-white tw-font-semibold tw-text-3xl md:tw-text-xl tw-capitalize;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

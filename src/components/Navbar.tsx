@@ -71,8 +71,8 @@ const Navbar = () => {
         tw-border-b-[0.5px] tw-shadow-sm
         ${
           scrollY != 0
-            ? "tw-shadow-gray-900 tw-border-gray-800"
-            : "tw-border-transparent tw-shadow-transparent"
+            ? "tw-shadow-gray-900 tw-border-gray-800 tw-backdrop-blur-md tw-bg-transparent-black"
+            : "tw-border-transparent tw-shadow-transparent "
         }
         `}
     >

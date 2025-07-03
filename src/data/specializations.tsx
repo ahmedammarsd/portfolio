@@ -2,9 +2,9 @@ import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { IoIosDesktop } from "react-icons/io";
 import { MdOutlineWebAsset } from "react-icons/md";
 import { special } from "../types/types";
-import web from "../../../assets/web.jpg";
-import mobile from "../../../assets/mobile.jpg";
-import desktop from "../../../assets/desktop.jpg";
+import web from "../assets/web.jpg";
+import mobile from "../assets/mobile.jpg";
+import desktop from "../assets/desktop.jpg";
 
 export const specializationsData: special[] = [
   {
