@@ -43,3 +43,16 @@ export type experienceType = {
   moreDetails: string[];
   location: string;
 };
+
+// == Projects
+export type projectType = {
+  image: string;
+  title: string;
+  description: string;
+  stack: string[];
+  link: string;
+  github: string;
+  category: "web" | "mobile" | "desktop";
+  status: "online" | "offline";
+  images?: string[];
+};

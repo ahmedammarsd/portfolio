@@ -31,7 +31,7 @@ type propNavMobile = {
 const NavMobile = ({ showNav, onClick }: propNavMobile) => {
   return (
     <div
-      className={`tw-w-full tw-h-full tw-bg-transparent-black tw-fixed tw-top-[80px] tw-right-0 tw-duration-500 tw-z-8
+      className={`tw-w-full tw-h-[100dvh] tw-bg-transparent-black tw-fixed tw-top-[70px] tw-right-0 tw-duration-500 tw-z-10
       ${showNav ? "tw-translate-x-[0]" : "tw-translate-x-[100%]"}
       `}
     >
@@ -67,7 +67,7 @@ const Navbar = () => {
     // == Main Container ==
     <nav
       id="#"
-      className={`tw-flex tw-fixed tw-bg-dark-one tw-z-9 tw-w-full tw-items-center tw-overflow-x-hidden tw-justify-around md:tw-justify-between md:tw-px-6 sm:tw-px-4 tw-h-[100px] md:tw-h-[80px]
+      className={`tw-flex tw-fixed tw-bg-dark-one tw-z-9 tw-w-full tw-items-center tw-justify-around md:tw-justify-between md:tw-px-6 sm:tw-px-4 tw-h-[90px] md:tw-h-[70px]
         tw-border-b-[0.5px] tw-shadow-sm
         ${
           scrollY != 0

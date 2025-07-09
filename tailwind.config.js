@@ -27,12 +27,25 @@ export default {
         "light-green": "#64FFDA",
         "light-two-green": "#64FFDA",
         "transparent-black": "rgba(0,0,0,0.3)",
+        "transparent-black-5": "rgba(0,0,0,0.5)",
       },
       fontFamily: {
         notoSans: `"Noto Sans",
         serif`,
         ubuntu: `"Ubuntu",
         serif`,
+      },
+      // fontSize: {
+      //   "h1-fluid": "clamp(2rem, 5vw, 4rem)", // 32px–64px
+      //   "h2-fluid": "clamp(1.75rem, 4vw, 3.5rem)",
+      //   "h3-fluid": "clamp(1.5rem, 3vw, 2.5rem)",
+      // },
+      fontSize: {
+        "fluid-h1": "clamp(2rem, 5vw + 1rem, 4rem)",
+        "fluid-h2": "clamp(1.75rem, 4vw + 0.5rem, 3rem)",
+        "fluid-h3": "clamp(1.5rem, 3vw + 0.5rem, 2.5rem)",
+        "fluid-base": "clamp(1rem, 2vw + 0.5rem, 1.25rem)",
+        "fluid-sm": "clamp(0.875rem, 1vw + 0.25rem, 1rem)",
       },
       borderColor: {
         "light-green": "#64FFDA",
