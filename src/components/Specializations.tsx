@@ -9,7 +9,7 @@ const Specializations = () => {
     <Section id={navLinks[1].name}>
       <SectionTitle title={navLinks[1].name} />
       {/* Container for 3 cards */}
-      <div className="tw-flex tw-items-center tw-justify-evenly tw-flex-wrap">
+      <div className="tw-flex tw-items-center tw-justify-evenly lg:tw-flex-wrap">
         {specializationsData.map((speciality) => (
           <CardSpecilty
             key={speciality.title}

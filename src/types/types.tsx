@@ -55,4 +55,5 @@ export type projectType = {
   category: "web" | "mobile" | "desktop";
   status: "online" | "offline";
   images?: string[];
+  features?: string[];
 };

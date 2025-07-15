@@ -41,6 +41,7 @@ export default {
       //   "h3-fluid": "clamp(1.5rem, 3vw, 2.5rem)",
       // },
       fontSize: {
+        xxs: ["0.625rem", { lineHeight: "1rem" }], // 10px
         "fluid-h1": "clamp(2rem, 5vw + 1rem, 4rem)",
         "fluid-h2": "clamp(1.75rem, 4vw + 0.5rem, 3rem)",
         "fluid-h3": "clamp(1.5rem, 3vw + 0.5rem, 2.5rem)",

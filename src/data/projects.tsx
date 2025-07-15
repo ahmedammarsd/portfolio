@@ -13,6 +13,7 @@ export const projects: projectType[] = [
     category: "web",
     status: "offline",
     images: ["test1.png", "test2.png", "test3.png"],
+    features: [],
   },
   {
     image: coding,

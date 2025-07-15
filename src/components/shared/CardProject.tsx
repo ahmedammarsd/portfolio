@@ -1,4 +1,5 @@
 import { projectType } from "../../types/types";
+import TextContainer from "./TextContainer";
 
 type cardProjectProps = {
   data: projectType;
@@ -38,20 +39,11 @@ const CardProject = ({
           {
             // stack.length > 3
             stack.slice(0, 3).map((item) => {
-              return (
-                <span
-                  key={item}
-                  className="tw-bg-transparent-black-5 tw-backdrop-blur-md tw-text-white tw-py-1 tw-px-2 tw-rounded-md tw-m-1 tw-capitalize tw-text-sm"
-                >
-                  {item}
-                </span>
-              );
+              return <TextContainer key={item} text={item} />;
             })
           }
           {stack.length > 3 ? (
-            <span className="tw-bg-transparent-black-5 tw-backdrop-blur-md tw-text-white tw-py-1 tw-px-2 tw-rounded-md tw-m-1 tw-capitalize tw-text-sm">
-              +{stack.length - 3}
-            </span>
+            <TextContainer text={`+${stack.length - 3}`} />
           ) : null}
         </div>
       </div>

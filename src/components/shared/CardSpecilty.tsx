@@ -4,16 +4,16 @@ import Pragraph from "./Pragraph";
 const CardSpecilty = ({ title, description, icon, image }: special) => {
   return (
     <div
-      className={`tw-flex tw-flex-col tw-items-center tw-gap-3 tw-w-[30%] lg:tw-w-[50%] md:tw-w-full tw-my-3 tw-mx-3 tw-relative
+      className={`tw-flex tw-flex-col tw-items-center tw-gap-3 tw-w-full tw-my-3 tw-mx-3 tw-relative
       tw-p-6 md:tw-p-4 
-     tw-rounded-lg tw-border-[0.1px] tw-border-light-green hover:tw-bg-[#1122402e]
+     tw-rounded-lg  hover:tw-bg-[#1122401c]
      tw-h-[350px] sm:tw-h-[270px] tw-shadow-sm tw-shadow-gray-800
-      tw-overflow-hidden
+      tw-overflow-hidden tw-duration-500 tw-group
      `}
     >
       <img
         src={image}
-        className="tw-absolute tw-top-0 tw-w-full tw-h-full tw-object-cover -tw-z-1 tw-opacity-10"
+        className="tw-absolute tw-top-0 tw-w-full tw-h-full tw-object-cover -tw-z-1 tw-opacity-10 group-hover:tw-opacity-40 tw-duration-500"
         alt={title}
         loading="lazy"
       />
