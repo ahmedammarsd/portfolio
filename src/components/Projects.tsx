@@ -23,7 +23,7 @@ const Projects = () => {
           ))}
         </select>
       </div>
-      <ProjectShown></ProjectShown>
+      <ProjectShown project={projects[0]}></ProjectShown>
       {/* Container Of Projects */}
     </Section>
   );
