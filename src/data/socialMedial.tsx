@@ -1,6 +1,7 @@
 import { BiLogoGmail } from "react-icons/bi";
 import { socailLink } from "../types/types";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 export const socialMediaData: socailLink[] = [
   {
@@ -17,5 +18,10 @@ export const socialMediaData: socailLink[] = [
     name: "Gmail",
     link: "mailto:ahmedammar.sdd@gmail.com",
     icon: <BiLogoGmail />,
+  },
+  {
+    name: "Leetcode",
+    link: "https://leetcode.com/ahmedammarsd/",
+    icon: <TbBrandLeetcode />,
   },
 ];
