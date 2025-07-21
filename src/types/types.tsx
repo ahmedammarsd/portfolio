@@ -17,6 +17,8 @@ export type propsButton = {
   type: "button" | "submit" | "reset";
   name: string;
   isTransparent: boolean;
+  className?: string;
+  onClick?: () => void;
 };
 
 //==== For Social Medial Links
@@ -47,6 +49,7 @@ export type experienceType = {
 // == Projects
 export type projectType = {
   image: string;
+  imageMobile: string;
   title: string;
   description: string;
   stack: string[];
