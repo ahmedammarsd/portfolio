@@ -13,10 +13,10 @@ export const navLinks: navLink[] = [
     name: "experience",
     to: "#experience",
   },
-  //   {
-  //     name: "Skills",
-  //     to: "#skills",
-  //   },
+  {
+    name: "Technical Skills",
+    to: "#skills",
+  },
   {
     name: "projects",
     to: "#projects",

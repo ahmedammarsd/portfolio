@@ -1,5 +1,3 @@
-import { IconType } from "react-icons";
-
 //=== For links in navbar
 export type navLink = {
   name: string;
@@ -9,7 +7,7 @@ export type navLink = {
 //=== For Skills
 export type skill = {
   name: string;
-  icon: React.ReactNode | IconType;
+  icon: React.ReactNode;
 };
 
 //==== For Button
@@ -18,6 +16,7 @@ export type propsButton = {
   name: string;
   isTransparent: boolean;
   className?: string;
+  disabled?: boolean;
   onClick?: () => void;
 };
 
