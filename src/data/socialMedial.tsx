@@ -15,13 +15,13 @@ export const socialMediaData: socailLink[] = [
     icon: <FaGithub />,
   },
   {
-    name: "Gmail",
-    link: "mailto:ahmedammar.sdd@gmail.com",
-    icon: <BiLogoGmail />,
-  },
-  {
     name: "Leetcode",
     link: "https://leetcode.com/ahmedammarsd/",
     icon: <TbBrandLeetcode />,
+  },
+  {
+    name: "Gmail",
+    link: "mailto:ahmedammar.sdd@gmail.com",
+    icon: <BiLogoGmail />,
   },
 ];

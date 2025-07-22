@@ -31,17 +31,21 @@ const ContainerLink = ({
 
 const ProjectShown = ({ project }: { project: projectType }) => {
   return (
-    <div className="tw-flex tw-items-start tw-justify-center tw-w-full md:tw-flex-col tw-gap-2 tw-mt-7 ">
+    <div
+      className="tw-flex tw-items-start tw-justify-center tw-w-full md:tw-flex-col tw-gap-2 tw-mt-7 "
+      id="project"
+    >
       {/* 3D Model */}
-      <div className="tw-w-[50%]  tw-shadow-md tw-bg-gray-900 tw-rounded-md tw-min-h-[600px] md:tw-w-full">
+      <div className="tw-w-[50%] tw-shadow-md tw-bg-gray-900 tw-rounded-md tw-min-h-[700px] md:tw-min-h-[450px] md:tw-w-full">
         <CollectionModels
           image={project.image}
           imageMobile={project.imageMobile}
+          projectType={project.category}
         />
       </div>
       {/* 3D Model */}
       {/* Project Details */}
-      <div className="tw-w-[50%] md:tw-w-full tw-shadow-md tw-bg-gray-900 tw-rounded-md tw-flex tw-min-h-[600px] tw-flex-col tw-p-5 tw-gap-5 tw-relative">
+      <div className="tw-w-[50%] md:tw-w-full tw-shadow-md tw-bg-gray-900 tw-rounded-md tw-flex tw-min-h-[700px] md:tw-min-h-[450px] tw-flex-col tw-p-5 tw-gap-5 tw-relative">
         <span
           className={`${
             project.status == "online"

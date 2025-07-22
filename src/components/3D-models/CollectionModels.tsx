@@ -1,6 +1,6 @@
 import { Center, OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import CanvasLoader from "./CanvaLoader";
 
 import MobileModel from "./MobileModel";
@@ -10,11 +10,18 @@ import Button from "../shared/Button";
 const CollectionModels = ({
   image,
   imageMobile,
+  projectType,
 }: {
   image: string;
   imageMobile: string;
+  projectType: "web" | "mobile" | "desktop";
 }) => {
   const [isMobile, setIsMobile] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (projectType === "mobile") setIsMobile(true);
+  }, []);
+
   return (
     <>
       <div className="tw-flex tw-gap-2 tw-w-full tw-justify-center tw-my-2">
@@ -36,19 +43,23 @@ const CollectionModels = ({
           isTransparent={true}
           type="button"
           name="Laptop"
+          disabled={projectType === "mobile"}
           className={`${
             !isMobile
               ? ""
               : "tw-text-white tw-border-gray-200 hover:tw-border-transparent"
-          }`}
+          } 
+          ${projectType === "mobile" ? "tw-opacity-40" : ""}
+          `}
           onClick={() => {
+            if (projectType === "mobile") return;
             if (isMobile) setIsMobile(false);
           }}
         />
       </div>
       <div className="tw-w-full tw-h-full tw-aspect-square tw-overflow-hidden">
         <Canvas>
-          <Suspense fullback={<CanvasLoader />}>
+          <Suspense fallback={<CanvasLoader />}>
             {/* 1- OrbitControls */}
             <Center>
               <OrbitControls enableRotate enablePan enableZoom={false} />
@@ -64,7 +75,7 @@ const CollectionModels = ({
                 near={0.1}
                 far={1000}
               />
-              {isMobile ? (
+              {isMobile || projectType === "mobile" ? (
                 <MobileModel
                   image={imageMobile}
                   position={[0, -4, 0]}

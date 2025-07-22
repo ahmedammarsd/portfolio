@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { projectType } from "../../types/types";
 import TextContainer from "./TextContainer";
 
@@ -8,7 +9,7 @@ const CardProject = ({
   data: { image, title, description, stack, status, category },
 }: cardProjectProps) => {
   return (
-    <div className="tw-flex tw-items-start tw-mx-5 tw-justify-end tw-w-[400px] md:tw-w-[350px] tw-h-[250px] md:tw-h-[200px] tw-flex-col tw-group tw-gap-3 tw-rounded-md tw-overflow-hidden tw-relative">
+    <div className="tw-flex tw-items-start tw-mx-5 tw-justify-end tw-w-[400px] md:tw-w-[350px] tw-h-[250px] md:tw-h-[200px] tw-flex-col tw-group tw-gap-3 tw-rounded-md tw-overflow-hidden tw-relative tw-cursor-pointer">
       <div className="tw-absolute tw-right-2 tw-top-2 tw-flex tw-gap-1 tw-items-center tw-text-gray-400 tw-text-xs tw-p-2 tw-px-5 tw-bg-transparent-black-5 tw-rounded-lg">
         <span
           className={`${
@@ -51,4 +52,4 @@ const CardProject = ({
   );
 };
 
-export default CardProject;
+export default memo(CardProject);
