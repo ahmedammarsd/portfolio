@@ -9,6 +9,7 @@ Title: iPhone 12 Pro
 import * as THREE from "three";
 import { useGLTF, useTexture } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
+import { GroupProps } from "@react-three/fiber";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -79,7 +80,10 @@ type GLTFResult = GLTF & {
   };
 };
 
-const MobileModel = (props: JSX.IntrinsicElements["group"]) => {
+interface CustomGroupProps extends GroupProps {
+  image: string; // or React.ReactNode if you want to pass JSX
+}
+const MobileModel = (props: CustomGroupProps) => {
   const { nodes, materials } = useGLTF(
     "/models/iphone_12_pro.glb"
   ) as GLTFResult;

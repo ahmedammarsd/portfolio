@@ -9,6 +9,7 @@ Title: Asus ROG Strix Scar 17 (2023) G733 Gaming Laptop
 import * as THREE from "three";
 import { useGLTF, useTexture } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
+import { GroupProps } from "@react-three/fiber";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -102,7 +103,11 @@ type GLTFResult = GLTF & {
   };
 };
 
-const LaptopModel = (props: JSX.IntrinsicElements["group"]) => {
+interface CustomGroupProps extends GroupProps {
+  image: string; // or React.ReactNode if you want to pass JSX
+}
+
+const LaptopModel = (props: CustomGroupProps) => {
   const { nodes, materials } = useGLTF(
     "/models/asus_rog_strix_scar_17_2023_g733_gaming_laptop.glb"
   ) as GLTFResult;
