@@ -17,10 +17,10 @@ import {
   SiMysql,
   SiRedux,
   SiTailwindcss,
+  SiExpress,
 } from "react-icons/si";
 import { FaFlutter } from "react-icons/fa6";
 import { DiMongodb } from "react-icons/di";
-
 export const webSkills: skill[] = [
   {
     name: "C++",
@@ -35,20 +35,33 @@ export const webSkills: skill[] = [
     icon: <FaCss3Alt />,
   },
   {
+    name: "BOOTSTRAP",
+    icon: <FaBootstrap />,
+  },
+  {
+    name: "TAILWIND",
+    icon: <SiTailwindcss />,
+  },
+  {
     name: "JAVASCRIPT",
     icon: <FaJsSquare />,
+  },
+  {
+    name: "REACT.JS",
+    icon: <FaReact />,
   },
   {
     name: "NODE.JS",
     icon: <FaNode />,
   },
   {
+    name: "EXPRESS.JS",
+    icon: <SiExpress />,
+  },
+
+  {
     name: "TYPESCRIPT",
     icon: <BiLogoTypescript />,
-  },
-  {
-    name: "REACT.JS",
-    icon: <FaReact />,
   },
   {
     name: "NEXT.JS",
@@ -61,14 +74,6 @@ export const webSkills: skill[] = [
   {
     name: "GITHUB",
     icon: <FaGithub />,
-  },
-  {
-    name: "BOOTSTRAP",
-    icon: <FaBootstrap />,
-  },
-  {
-    name: "TAILWIND",
-    icon: <SiTailwindcss />,
   },
   {
     name: "RTXQuery",

@@ -36,7 +36,7 @@ const CollectionModels = ({
           className={`${
             isMobile
               ? ""
-              : "tw-text-white tw-border-gray-200 hover:tw-border-transparent"
+              : "tw-text-white tw-border-gray-100 hover:tw-border-transparent"
           }`}
         />
         <Button
@@ -47,7 +47,7 @@ const CollectionModels = ({
           className={`${
             !isMobile
               ? ""
-              : "tw-text-white tw-border-gray-200 hover:tw-border-transparent"
+              : "tw-text-white tw-border-gray-100 hover:tw-border-transparent"
           } 
           ${projectType === "mobile" ? "tw-opacity-40" : ""}
           `}

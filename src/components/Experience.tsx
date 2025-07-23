@@ -35,6 +35,7 @@ const Experience = () => {
   const [selectedExperience, setSelectedExperience] = useState(0);
   const [showMeun, setShowMeun] = useState(false);
   const handleShowMeun = () => setShowMeun((prev) => !prev);
+  console.log("rebuild");
   return (
     <Section id={navLinks[2].name}>
       <SectionTitle title={navLinks[2].name} />
@@ -49,7 +50,7 @@ const Experience = () => {
         <div
           className={`tw-flex-[1] lg:tw-absolute lg:tw-w-full lg:tw-bg-transparent lg:tw-backdrop-blur-md lg:tw-shadow-sm lg:tw-p-7 lg:tw-rounded-lg lg:tw-border-[0.1px] lg:tw-border-gray-800 tw-transition-all tw-duration-700
             lg:tw-top-9
-            ${showMeun ? "lg:tw-translate-x-[0]" : "lg:tw-translate-x-[-100%]"}
+            ${showMeun ? "lg:tw-translate-x-[0]" : "lg:tw-translate-x-[-150%]"}
 
             `}
         >

@@ -1,7 +1,6 @@
 import { lazy } from "react";
-import Header from "../components/Header";
+
 import Hero from "../components/Hero";
-import Skills from "../components/Skills";
 // import About from "../components/About";
 // import Experience from "../components/Experience";
 // import Projects from "../components/Projects";
@@ -11,20 +10,18 @@ const About = lazy(() => import("../components/About"));
 const Specializations = lazy(() => import("../components/Specializations"));
 const Experience = lazy(() => import("../components/Experience"));
 const Projects = lazy(() => import("../components/Projects"));
+const Skills = lazy(() => import("../components/Skills"));
 
 const Home = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Specializations />
-        <Experience />
-        <Projects />
-        <Skills />
-      </main>
-    </>
+    <main>
+      <Hero />
+      <About />
+      <Specializations />
+      <Experience />
+      <Projects />
+      <Skills />
+    </main>
   );
 };
 

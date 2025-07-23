@@ -5,7 +5,7 @@ const SocialMedia = () => {
   //const os = navigator.userAgent;
 
   return (
-    <div className="tw-absolute tw-bottom-20 tw-left-20 xs:tw-left-14 tw-flex tw-items-center tw-flex-col md:tw-flex-row-reverse  ">
+    <div className="tw-absolute tw-bottom-20 sm:tw-bottom-16 tw-left-20 xs:tw-left-14 tw-flex tw-items-center tw-flex-col md:tw-flex-row-reverse  ">
       {socialMediaData.map((social) => (
         <a
           target="_blank"

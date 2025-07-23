@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 type sectionTitleProp = {
   title: string;
 };
@@ -13,4 +15,4 @@ const SectionTitle = ({ title }: sectionTitleProp) => {
   );
 };
 
-export default SectionTitle;
+export default memo(SectionTitle);

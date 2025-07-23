@@ -164,7 +164,7 @@ export const projects: projectType[] = [
     description:
       "An Mobile Application that helps patients after registration to benefit from using the application by updating their data and patient records. and also can know about all centers that related to the dialysis centers in Sudan",
     stack: ["Flutter", "Provider", "Dio"],
-    link: "https://markting-su.netlify.app/",
+    link: "",
     github: "",
     category: "mobile",
     status: "online",
