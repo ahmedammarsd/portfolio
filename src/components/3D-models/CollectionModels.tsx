@@ -2,10 +2,10 @@ import { Center, OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useState } from "react";
 import CanvasLoader from "./CanvaLoader";
-
 import MobileModel from "./MobileModel";
 import LaptopModel from "./LaptopModel";
 import Button from "../shared/Button";
+import { BsBadge3D } from "react-icons/bs";
 
 const CollectionModels = ({
   image,
@@ -24,7 +24,8 @@ const CollectionModels = ({
 
   return (
     <>
-      <div className="tw-flex tw-gap-2 tw-w-full tw-justify-center tw-my-2">
+      <div className="tw-flex tw-gap-2 tw-w-full tw-justify-center tw-my-2 tw-relative">
+        <BsBadge3D className="tw-absolute tw-left-3 tw-bottom-0 tw-text-white tw-text-2xl" />
         <Button
           isTransparent={true}
           type="button"

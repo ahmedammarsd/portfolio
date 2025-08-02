@@ -1,6 +1,7 @@
 import { lazy } from "react";
 
 import Hero from "../components/Hero";
+import OpenSourceCollaborate from "../components/OpenSourceCollaborate";
 // import About from "../components/About";
 // import Experience from "../components/Experience";
 // import Projects from "../components/Projects";
@@ -21,6 +22,7 @@ const Home = () => {
       <Experience />
       <Projects />
       <Skills />
+      <OpenSourceCollaborate />
     </main>
   );
 };

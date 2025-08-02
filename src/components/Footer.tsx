@@ -17,7 +17,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="tw-text-sm tw-text-gray-600 sm:tw-text-xs">
-          Ahmed Ammar - © {new Date().getFullYear()}
+          Created by Ahmed Ammar - © {new Date().getFullYear()}
         </p>
       </div>
     </div>
