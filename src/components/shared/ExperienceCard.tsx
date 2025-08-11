@@ -14,7 +14,9 @@ const ExperienceCard = ({ data }: experienceProp) => {
           {data.positionTitel}
           <span className="tw-text-light-green">
             {" "}
-            {data?.nameOfCampany && `@ ${data.nameOfCampany}`}
+            {data?.nameOfCampany == "Freelance"
+              ? ""
+              : `@ ${data.nameOfCampany}`}
           </span>
         </h2>
       </div>

@@ -10,21 +10,21 @@ export const specializationsData: special[] = [
   {
     title: "Web Applications",
     description:
-      "I can develop a creative websites , and this my old or first specialty i did started with it, I'm using React.js and sometimes Next.js for creating or developing websites. ",
+      "Build and develop a creative websites, and this my old or first specialty i did started with it, using React.js and sometimes Next.js for creating and developing websites.",
     icon: <MdOutlineWebAsset />,
     image: web,
   },
   {
     title: "Mobile Applications",
     description:
-      "Build a projects that working in more than one platform such as (Android - IOS), I'm using or coding with Flutter framework in projects for mobile Applications",
+      "Build a projects that working in more than one platform such as (Android, iOS), using or coding with Flutter framework in projects for mobile Applications.",
     icon: <HiOutlineDevicePhoneMobile />,
     image: mobile,
   },
   {
     title: "Desktop Applications",
     description:
-      "Build a project or systems the serve the corporate in it's work and as well with more than one platform (Windows - macOS - Linux) , such as Dashboards ",
+      "New Side of my specialty and also not have much experience on it, build a projects or systems the serve the corporate,and using Flutter framework in projects for desktop Applications.",
     icon: <IoIosDesktop />,
     image: desktop,
   },

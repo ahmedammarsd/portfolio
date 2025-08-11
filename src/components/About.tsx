@@ -13,21 +13,22 @@ const About = () => {
         {/* Description */}
         <div className="tw-flex-[2]">
           <Pragraph marginTop={false}>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            Hi again, I'm Ahmed Ammar Siddig, I'm in beginning and start a long
+            journey in technologies and systems and very interested in this
+            field and I thank Allah for helping me to reach this point in the
+            field and I'm tenacious to continue this journey and be persistent
+            in learning and improving my experience
           </Pragraph>
           <Pragraph>
-            I also recently launched a course that covers everything you need to
-            build a web app with the Spotify API using Node & React.
+            In every Project I’m prone to start from scratch and collaborate
+            with team in different phases specially on analysis and schema
+            design this helps me to know more details and insights about project
+            and focusing more on build User Interface and handle all operations
+            that need it in web or mobile application because this my specialty.
           </Pragraph>
           <Pragraph>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure error
-            animi voluptates pariatur eos modi, aliquam eligendi minus aperiam
-            sit repudiandae? Tempore harum consequatur blanditiis amet eos animi
-            culpa laborum.
+            Very related for different phases or apects of project like thoughts
+            about project Architecture, DB schema design and more.
           </Pragraph>
         </div>
         {/* Description */}
