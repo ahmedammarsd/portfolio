@@ -35,7 +35,6 @@ const Experience = () => {
   const [selectedExperience, setSelectedExperience] = useState(0);
   const [showMeun, setShowMeun] = useState(false);
   const handleShowMeun = () => setShowMeun((prev) => !prev);
-  console.log("rebuild");
   return (
     <Section id={navLinks[2].name}>
       <SectionTitle title={navLinks[2].name} />

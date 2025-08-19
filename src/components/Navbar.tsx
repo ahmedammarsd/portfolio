@@ -1,11 +1,11 @@
 import { RiMenu3Fill } from "react-icons/ri";
 import { navLinks } from "../data/navLinks";
 import useScreenSize from "../hooks/useScreenSizeHook";
-import Button from "./shared/Button";
 import NavLink from "./shared/NavLink";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
 import useScrollYSizeHook from "../hooks/useScrollYSizeHook";
+import PdfViewr from "./PdfViewr";
 
 // =============== Desktop Navbar ===========
 const NavDesktop = () => {
@@ -18,7 +18,8 @@ const NavDesktop = () => {
         ))}
       </ul>
       {/* Button Component  */}
-      <Button type="button" name="Resume" isTransparent={true} />
+      {/* <Button type="button" name="Resume" isTransparent={true} /> */}
+      <PdfViewr />
     </>
   );
 };
@@ -48,7 +49,8 @@ const NavMobile = ({ showNav, onClick }: propNavMobile) => {
           ))}
         </ul>
         {/* Button Component  */}
-        <Button type="button" name="Resume" isTransparent={true} />
+        {/* <Button type="button" name="Resumedfas" isTransparent={true} /> */}
+        <PdfViewr />
       </div>
     </div>
   );

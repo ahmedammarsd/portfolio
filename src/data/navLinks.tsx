@@ -2,23 +2,23 @@ import { navLink } from "../types/types";
 
 export const navLinks: navLink[] = [
   {
-    name: "about",
-    to: "#about",
+    name: "about me",
+    to: "about",
   },
   {
     name: "specializations",
-    to: "#specializations",
+    to: "specializations",
   },
   {
     name: "experience",
-    to: "#experience",
-  },
-  {
-    name: "technical-skills",
-    to: "#technical-skills",
+    to: "experience",
   },
   {
     name: "projects",
-    to: "#projects",
+    to: "projects",
+  },
+  {
+    name: "skills",
+    to: "skills",
   },
 ];

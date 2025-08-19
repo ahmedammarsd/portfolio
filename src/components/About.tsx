@@ -6,7 +6,7 @@ import { navLinks } from "../data/navLinks";
 
 const About = () => {
   return (
-    <Section id={navLinks[0].name}>
+    <Section id={navLinks[0].to}>
       <SectionTitle title={navLinks[0].name} />
       {/* About description & image */}
       <div className="tw-flex md:tw-flex-col-reverse tw-items-start tw-gap-5 tw-justify-between">

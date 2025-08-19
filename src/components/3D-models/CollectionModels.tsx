@@ -6,6 +6,7 @@ import MobileModel from "./MobileModel";
 import LaptopModel from "./LaptopModel";
 import Button from "../shared/Button";
 import { BsBadge3D } from "react-icons/bs";
+import { LuRotate3D } from "react-icons/lu";
 
 const CollectionModels = ({
   image,
@@ -25,7 +26,8 @@ const CollectionModels = ({
   return (
     <>
       <div className="tw-flex tw-gap-2 tw-w-full tw-justify-center tw-my-2 tw-relative">
-        <BsBadge3D className="tw-absolute tw-left-3 tw-bottom-0 tw-text-white tw-text-2xl" />
+        <BsBadge3D className="tw-absolute tw-left-3 tw-opacity-60 tw-bottom-0 tw-text-white tw-text-2xl" />
+        <LuRotate3D className="tw-absolute tw-left-10 tw-opacity-60 tw-bottom-0 tw-text-white tw-text-2xl" />
         <Button
           isTransparent={true}
           type="button"

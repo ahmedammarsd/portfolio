@@ -12,7 +12,7 @@ const NavLink = ({ name, to, onClick }: navLink) => {
     "
     >
       <a
-        href={to}
+        href={`#${to}`}
         onClick={onClick}
         className=" md:tw-w-full md:tw-inline-block md:tw-py-2 md:tw-px-3 md:tw-bg-gray-900 hover:md:tw-bg-gray-800 md:tw-rounded-md tw-capitalize"
       >

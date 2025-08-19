@@ -30,8 +30,8 @@ const ProjectsMarquee = ({
 const Projects = () => {
   const [projectIndex, setProjectIndex] = useState(0);
   return (
-    <Section id={navLinks[4].name}>
-      <SectionTitle title={navLinks[4].name} />
+    <Section id={navLinks[3].name}>
+      <SectionTitle title={navLinks[3].name} />
       {/* Container Of Projects */}
       <ProjectsMarquee setProjectIndex={setProjectIndex} />
       <div className="tw-flex tw-justify-center tw-items-center tw-mt-6">

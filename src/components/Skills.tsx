@@ -15,8 +15,8 @@ const IconContainer = ({ skill }: { skill: skill }) => {
 const Skills = () => {
   const skills: skill[] = [...webSkills, ...mobileSkills, ...dataBase];
   return (
-    <Section id={navLinks[3].name}>
-      <SectionTitle title={navLinks[3].name} />
+    <Section id={navLinks[4].name}>
+      <SectionTitle title={navLinks[4].name} />
       {/* <ReactMarquee>
         {skills.map((skill) => (
           <IconContainer key={skill.name} skill={skill} />
