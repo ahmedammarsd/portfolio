@@ -5,7 +5,7 @@ import yqen from "../assets/open_source_collaborate/yqen.png";
 const OpenSourceCollaborate = () => {
   return (
     <Section id="Open Source Collaborate">
-      <SectionTitle title="Open Source Collaborate" />
+      <SectionTitle title="Open Source Collaboration" />
       <div className="tw-flex tw-gap-3">
         <div
           className="tw-flex tw-flex-col tw-gap-3 tw-items-center tw-cursor-pointer tw-group"

@@ -25,6 +25,7 @@ export type socailLink = {
   name: string;
   link: string;
   icon: React.ReactNode;
+  ariaLabel?: string;
 };
 
 export type special = {

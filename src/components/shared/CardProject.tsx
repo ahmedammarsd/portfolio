@@ -23,7 +23,7 @@ const CardProject = ({
       <span className="tw-absolute tw-top-2 tw-left-2 tw-bg-transparent-black-5 tw-backdrop-blur-md tw-text-white tw-py-1 tw-px-2 tw-rounded-md tw-m-1 tw-capitalize tw-text-sm">
         {category}
       </span>
-      <div className="tw-bg-transparent-black-5 tw-absolute tw-w-full tw-h-full tw-backdrop-blur-[2px] tw-z-[-1] group-hover:tw-backdrop-blur-[0px] tw-duration-500" />
+      <div className="tw-bg-transparent-black-5 tw-absolute tw-w-full tw-h-full tw-z-[-1] tw-duration-500" />
       <img
         src={image}
         loading="lazy"
@@ -32,9 +32,9 @@ const CardProject = ({
       />
 
       <div className="tw-p-3 tw-flex tw-flex-col tw-gap-2">
-        <h3 className="tw-text-white tw-text-xl md:tw-text-lg ">{title}</h3>
-        <p className="tw-text-gray-200 sm:tw-text-sm">
-          {description.slice(0, 100)}
+        <h3 className="tw-text-white tw-text-lg">{title}</h3>
+        <p className="tw-text-gray-200 tw-text-sm">
+          {description.slice(0, 90)}...
         </p>
         <div className="tw-flex tw-flex-wrap tw-gap-2">
           {

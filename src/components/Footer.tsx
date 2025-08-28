@@ -7,9 +7,10 @@ const Footer = () => {
         <div className="tw-flex tw-gap-5 tw-m-5">
           {socialMediaDataMobile.map((social) => (
             <a
-              target="_blank"
               key={social.name}
+              target="_blank"
               href={social.link}
+              aria-label=""
               className="tw-text-2xl tw-text-white hover:tw-text-light-green tw-duration-200"
             >
               {social.icon}

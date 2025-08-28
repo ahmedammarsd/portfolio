@@ -36,7 +36,7 @@ const Projects = () => {
       <ProjectsMarquee setProjectIndex={setProjectIndex} />
       <div className="tw-flex tw-justify-center tw-items-center tw-mt-6">
         <select
-          className="tw-block tw-w-[50%]  md:tw-w-full tw-bg-gray-800 tw-border tw-border-gray-700 tw-rounded-md tw-px-4 tw-py-2 tw-text-gray-100 tw-shadow-sm focus:tw-outline-none focus:tw-ring-2 dark:focus:tw-ring-blue-400 tw-transition-all"
+          className="tw-block tw-w-[50%] md:tw-w-full tw-bg-gray-800 tw-border tw-border-gray-700 tw-rounded-md tw-px-4 tw-py-2 tw-text-gray-100 tw-shadow-sm focus:tw-outline-none focus:tw-ring-2 dark:focus:tw-ring-blue-400 tw-transition-all"
           onChange={(e) => setProjectIndex(e.target.selectedIndex)}
         >
           {projects.map((project) => (

@@ -50,8 +50,8 @@ const Experience = () => {
           className={`tw-flex-[1] lg:tw-absolute lg:tw-w-full lg:tw-bg-transparent lg:tw-backdrop-blur-md lg:tw-shadow-sm lg:tw-p-7 lg:tw-rounded-lg lg:tw-border-[0.1px] lg:tw-border-gray-800 tw-transition-all tw-duration-700
             lg:tw-top-9
             ${showMeun ? "lg:tw-translate-x-[0]" : "lg:tw-translate-x-[-150%]"}
-
             `}
+          role="dialog"
         >
           {experienceData.map((exp, index) => (
             <div

@@ -25,7 +25,7 @@ const PdfViewr = () => {
           </button>
           <div className="tw-flex tw-justify-center tw-items-center tw-h-screen tw-w-[100%]">
             <iframe
-              src="/software_eng_ahmed_ammar.pdf"
+              src="/Front_End__Ahmed_Ammar.pdf"
               width="100%"
               height="100%"
               style={{ border: "none" }}

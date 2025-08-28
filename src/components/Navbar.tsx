@@ -1,11 +1,12 @@
+import { lazy, useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { navLinks } from "../data/navLinks";
 import useScreenSize from "../hooks/useScreenSizeHook";
 import NavLink from "./shared/NavLink";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
 import useScrollYSizeHook from "../hooks/useScrollYSizeHook";
-import PdfViewr from "./PdfViewr";
+const PdfViewr = lazy(() => import("./PdfViewr"));
+import { FaConnectdevelop } from "react-icons/fa";
 
 // =============== Desktop Navbar ===========
 const NavDesktop = () => {
@@ -82,8 +83,9 @@ const Navbar = () => {
       <div>
         <a
           href="/#"
-          className="tw-text-light-green tw-text-5xl lg:tw-text-4xl md:tw-text-3xl tw-font-bold tw-cursor-pointer sm:tw-text-xl"
+          className="tw-text-light-green tw-text-2xl tw-font-bold tw-cursor-pointer sm:tw-text-lg tw-flex tw-gap-1 tw-items-center"
         >
+          <FaConnectdevelop />
           AHMED
         </a>
       </div>

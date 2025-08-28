@@ -10,12 +10,17 @@ const ContainerLink = ({
 }: {
   link: string;
   icon: React.ReactNode;
+  isLocal?: boolean;
 }) => {
   return (
-    <a href={link != "" ? link : "#"} target="_blank">
+    <a
+      href={link != "" ? link : "#"}
+      target="_blank"
+      className={`${link == "" ? "tw-pointer-events-none" : ""}`}
+    >
       <div
         className={`tw-flex tw-items-center tw-justify-center tw-gap-5 ${
-          link == "" ? "tw-opacity-50" : ""
+          link == "" ? "tw-opacity-50 tw-pointer-events-none" : ""
         }`}
       >
         <TextContainer
