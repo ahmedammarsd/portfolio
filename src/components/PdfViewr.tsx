@@ -13,7 +13,10 @@ const PdfViewr = () => {
         onClick={() => setShowPdf(true)}
       />
       {showPdf && (
-        <div className="tw-w-[100%] tw-h-screen tw-absolute tw-top-0 tw-left-0 tw-z-50">
+        <div
+          className="tw-w-[100%] tw-h-screen tw-absolute tw-top-0 tw-left-0 tw-z-50"
+          style={{ contentVisibility: "auto" }}
+        >
           <button
             className="tw-absolute tw-top-5 tw-right-5 tw-bg-white hover:tw-text-red-400 tw-duration-200 tw-rounded-full tw-text-xl"
             onClick={() => setShowPdf(false)}
