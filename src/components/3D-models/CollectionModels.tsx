@@ -21,7 +21,7 @@ const CollectionModels = ({
 
   useEffect(() => {
     if (projectType === "mobile") setIsMobile(true);
-  }, []);
+  }, [projectType]);
 
   return (
     <>
