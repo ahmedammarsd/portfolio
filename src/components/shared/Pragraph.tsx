@@ -1,18 +1,21 @@
+import { forwardRef } from "react";
+
 type pragraphTextProp = {
   children: React.ReactNode;
   marginTop?: boolean;
   center?: boolean;
   isSmaller?: boolean;
 };
-const Pragraph = ({
-  children,
-  marginTop = true,
-  center = false,
-  isSmaller = false,
-}: pragraphTextProp) => {
-  return (
-    <p
-      className={`tw-text-middle-grey sm:tw-leading-6 
+const Pragraph = forwardRef(
+  ({
+    children,
+    marginTop = true,
+    center = false,
+    isSmaller = false,
+  }: pragraphTextProp) => {
+    return (
+      <p
+        className={`tw-text-middle-grey sm:tw-leading-6 
         ${marginTop ? "tw-mt-6" : "tw-mt-0"}
       ${center ? "tw-text-center" : ""}
       ${
@@ -21,10 +24,11 @@ const Pragraph = ({
           : "tw-text-2xl md:tw-text-[19px] sm:tw-text-[17px]"
       }
       `}
-    >
-      {children}
-    </p>
-  );
-};
+      >
+        {children}
+      </p>
+    );
+  }
+);
 
 export default Pragraph;

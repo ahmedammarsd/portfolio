@@ -6,7 +6,7 @@ import NavLink from "./shared/NavLink";
 import { IoMdClose } from "react-icons/io";
 import useScrollYSizeHook from "../hooks/useScrollYSizeHook";
 const PdfViewr = lazy(() => import("./PdfViewr"));
-import { FaConnectdevelop } from "react-icons/fa";
+//import { FaConnectdevelop } from "react-icons/fa";
 
 // =============== Desktop Navbar ===========
 const NavDesktop = () => {
@@ -83,10 +83,15 @@ const Navbar = () => {
       <div>
         <a
           href="/#"
-          className="tw-text-light-green tw-text-2xl tw-font-bold tw-cursor-pointer sm:tw-text-lg tw-flex tw-gap-1 tw-items-center"
+          className=" tw-font-bold tw-cursor-pointer sm:tw-text-lg tw-flex tw-gap-1 tw-items-center"
         >
-          <FaConnectdevelop />
-          AHMED
+          <img
+            src="/logo.png"
+            alt="logo"
+            loading="lazy"
+            width={140}
+            height={140}
+          />
         </a>
       </div>
       {/* Second Div For Links in desktop and mobile style */}
