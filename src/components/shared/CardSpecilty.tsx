@@ -16,6 +16,8 @@ const CardSpecilty = ({ title, description, icon, image }: special) => {
         className="tw-absolute tw-top-0 tw-w-full tw-h-full tw-object-cover -tw-z-1 tw-opacity-10 group-hover:tw-opacity-40 tw-duration-500"
         alt={title}
         loading="lazy"
+        width={400}
+        height={350}
       />
       <div className="tw-text-light-green tw-text-6xl sm:tw-text-5xl tw-mb-3 sm:tw-mb-2 tw-rounded-md">
         {icon}

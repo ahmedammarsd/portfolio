@@ -38,6 +38,8 @@ const About = () => {
             src={imageCoding}
             className="tw-border-[0.5px] tw-border-light-green tw-rounded-md tw-object-cover"
             alt="image-for-someone-coding"
+            width={150}
+            height={150}
             loading="lazy"
           />
           <div className="tw-w-full tw-h-full tw-absolute tw-top-4 tw-left-1.5 -tw-z-1 tw-rounded-md  tw-border tw-border-light-green"></div>

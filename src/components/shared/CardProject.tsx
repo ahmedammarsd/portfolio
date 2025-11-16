@@ -28,6 +28,8 @@ const CardProject = ({
         src={image}
         loading="lazy"
         alt={title}
+        width={400}
+        height={250}
         className="tw-w-full tw-h-full tw-object-cover tw-absolute tw-top-0 tw-left-0 tw-z-[-2]"
       />
 
